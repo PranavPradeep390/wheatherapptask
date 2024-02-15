@@ -3,23 +3,29 @@
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
+  width: 100%;
+  height: 100vh;
+ background-image: url("https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg");
+ background-size: cover;
 }
 
 input[type="text"] {
   padding: 10px;
   margin: 10px;
+  border-radius: 10px;
+
 }
 
 button {
   padding: 10px 20px;
   background-color: #7e7f80;
   color: #fff;
-  border: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #4b719a;
 }
 
 p {

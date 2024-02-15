@@ -8,7 +8,7 @@ const App = () => {
   const [city, setCity] = useState('');
   const [error, setError] = useState('');
 
-  const API_KEY = 'f00c38e0279b7bc85480c3fe775d518c'; // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+  const API_KEY = 'f00c38e0279b7bc85480c3fe775d518c';
 
   const fetchWeatherData = async () => {
     try {
